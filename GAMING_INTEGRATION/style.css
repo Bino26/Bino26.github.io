@@ -46,7 +46,11 @@ header .container .onglet ul a:hover{
     text-decoration: underline;
     
 }
+<<<<<<< HEAD
 /**SECTION1**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 .sec1{
     background: url(assets/img/bg.jpg) fixed no-repeat center/cover;
     height: 700px;
@@ -90,7 +94,11 @@ header .container .onglet ul a:hover{
     color: rgb(255, 0, 76);
     cursor: pointer;
 }
+<<<<<<< HEAD
 /**SECTION2**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 .sec2{
     background-color: white;
     height: 70px;
@@ -102,7 +110,11 @@ header .container .onglet ul a:hover{
     font-weight: bold;
     color: black;
 }
+<<<<<<< HEAD
 /**SECTION3**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 .sec3{
     background-color: black;
     height: 500px;
@@ -160,7 +172,11 @@ header .container .onglet ul a:hover{
     color: white;
 }
 
+<<<<<<< HEAD
 /**SECTION4**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 .sec4{
     background-color: gainsboro ;
     height: 100vh;
@@ -220,7 +236,11 @@ header .container .onglet ul a:hover{
  .sec4 .container2 a{
     color: purple;
  }
+<<<<<<< HEAD
 /**SECTION5**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 .sec5{
     background-color: white;
     height: 400px;
@@ -246,7 +266,11 @@ header .container .onglet ul a:hover{
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 /**SECTION6**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 
 .sec6{
     background-color: white;
@@ -271,7 +295,11 @@ header .container .onglet ul a:hover{
 .sec6 .part2 ul{
     margin: 0 20px;
 }
+<<<<<<< HEAD
 /**FOOTER_STYLE**/
+=======
+
+>>>>>>> 72f4f006c503428c41a3f71ab56a1c2ed433022a
 footer{
     background-color:black;
     height: 120px;
