@@ -12,9 +12,13 @@ body{
     max-width: 1920px;
     
 }
+header{
+    position: fixed;
+    top: 0;
+}
 header .container{
     height: 90px;
-    width: 100%;
+    width: 200%;
     background-color: white;
     display: flex;
     margin: 0 auto;
@@ -271,6 +275,8 @@ header .container .onglet ul a:hover{
 .sec6 .part2 ul{
     margin: 0 20px;
 }
+
+
 /**FOOTER_STYLE**/
 footer{
     background-color:black;
