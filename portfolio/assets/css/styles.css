@@ -393,6 +393,9 @@ img {
   cursor: pointer;
   margin: 0 auto;
 }
+textarea{
+  resize: none;
+}
 
 /* FOOTER */
 .footer {
