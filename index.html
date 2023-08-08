@@ -1,436 +1,272 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link
-      rel="shortcut icon "
-      href="assets/img/IMG_5266-removebg-preview.png"
-    />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-
-    <title>Bino's Portfolio</title>
-  </head>
-  <body>
-    <!--- HEADER --->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#"
-            ><img
-              src="assets/img/IMG_5266-removebg-preview.png"
-              alt=""
-              height="60px "
-              width="50px"
-            />
-          </a>
-        </div>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Work</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Bino's Contributions</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--HOME --->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">
-            Hi,<br />I'am
-            <span class="home__title-color">Yann BANGAH(Bino)</span><br />
-            Web Designer
-          </h1>
-
-          <a
-            href="assets/img/CV-BANGAH.pdf"
-            download="BINO'S RESUME"
-            class="button"
-            target="_blank"
-            >BINO'S RESUME(CV) <i class="bx bxs-download"></i
-          ></a>
-          <i class="bx bx-wink-smile"></i>
-        </div>
-
-        <div class="home__social">
-          <a
-            href="https://www.linkedin.com/in/yannbangah-bino"
-            class="home__social-icon"
-            target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a
-            href="https://github.com/Bino26"
-            class="home__social-icon"
-            target="_blank"
-            ><i class="bx bxl-github"></i
-          ></a>
-        </div>
-
-        
-      </section>
-
-      <!--LOADER-->
-      <div class="loader"></div>
-
-      <!---ABOUT --->
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/BANGAH_Professionel.png" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">I'am YANN BANGAH</h2>
-            <p class="about__text">
-              A IT Student passionate with relevant skills in user interface and
-              user experience design. As a JavaScript Junior Developer , i'm
-              focused on MERN STACK, Mobile Application and Website Development.
-              I got a diploma equivalent to a bachelor's degree in Computer
-              Science and other certifactes .
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!---SKILLS --->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <p class="skills__text"></p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">95%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">75%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-git skills__icon"></i>
-                <span class="skills__name">GIT</span>
-              </div>
-              <div class="skills__bar skills__git"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-react skills__icon"></i>
-                <span class="skills__name">REACT</span>
-              </div>
-              <div class="skills__bar skills__react"></div>
-              <div>
-                <span class="skills__percentage">40%</span>
-              </div>
-            </div>
-          </div>
-          <!-- SECOND -->
-
-          <div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-nodejs skills__icon"></i>
-                <span class="skills__name">NODE JS</span>
-              </div>
-              <div class="skills__bar skills__node"></div>
-              <div>
-                <span class="skills__percentage">70%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-nodejs skills__icon"></i>
-                <span class="skills__name">EXPRESS JS</span>
-              </div>
-              <div class="skills__bar skills__node"></div>
-              <div>
-                <span class="skills__percentage">70%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-mongodb skills__icon"></i>
-                <span class="skills__name">MONGO DB</span>
-              </div>
-              <div class="skills__bar skills__mongodb"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-sass skills__icon"></i>
-                <span class="skills__name">SASS</span>
-              </div>
-              <div class="skills__bar skills__sass"></div>
-              <div>
-                <span class="skills__percentage">90%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!---WORK --->
-      <section class="work section" id="work">
-        <h2 class="section-title">Work</h2>
-        <p id="text_work">
-          The rest of work will be available as soon as possible but you can
-          find some projects on my
-          <a href="https://github.com/Bino26" target="_blank">Github</a>
-        </p>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <img src="assets/img/Movies App.png" alt="" title="Movies App" />
-            <div class="overview">
-              <h3>Overview:</h3>
-              Movies App is a is an web page that help you to search movies by
-              their name and to get some informations about movies.
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://movies26-app.netlify.app/"
-                  target="_blank"
-                  title="Live Link"
-                  ><i class="bx bx-link"></i
-                ></a>
-                <a
-                  href="https://github.com/Bino26/Bin026_JS/tree/main/Movies%20App%20"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="work__img">
-            <img
-              src="assets/img/Food Receipe App.png"
-              alt=""
-              title="Food Receipe App"
-            />
-            <div class="overview">
-              <h3>Overview:</h3>
-              Food Receipe App is a is an web page that help you to search
-              receipe by their name and to get some informations about the food.
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://foodreceipe26.netlify.app/"
-                  target="_blank"
-                  title="Live Link"
-                  ><i class="bx bx-link"></i
-                ></a>
-                <a
-                  href="https://github.com/Bino26/Bin026_JS/tree/main/Food%20Receipe%20App"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="work__img">
-            <img src="assets/img/Joke App.png" alt="" title="Joke App" />
-            <div class="overview">
-              <h3>Overview:</h3>
-              Joke App is an web page that give you to random joke . You will
-              get another random joke by clicking on the main page .
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://joke-app26.netlify.app/"
-                  target="_blank"
-                  title="Live Link"
-                  ><i class="bx bx-link"></i
-                ></a>
-                <a
-                  href="https://github.com/Bino26/Bin026_JS/tree/main/Joke%20App"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="work__img">
-            <img
-              src="assets/img/Password Generator App.png"
-              alt=""
-              title="Password Generator App"
-            />
-            <div class="overview">
-              <h3>Overview:</h3>
-              B26 Generator is a free, safe and easy to use tool that lets you
-              create secure passwords. This tool is ideal for users who want to
-              boost their protection against hackers by ensuring their passwords
-              are unique and difficult to crack. The B26 Generator will generate
-              any random password that may be needed. All you have to do is to
-              choose the number of characters you want and which characters you
-              want to put and click on the Generate button and wait for a few
-              seconds and you have your password already copied!
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://password-generator26.netlify.app/"
-                  target="_blank"
-                  title="Live Link"
-                  ><i class="bx bx-link"></i
-                ></a>
-                <a
-                  href="https://github.com/Bino26/password-generator"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="work__img">
-            <img src="assets/img/UICI APP.png" alt="" title="UICI APP" />
-            <div class="overview">
-              <h3>Overview:</h3>
-              UICI WEB APP is a web application that allows students to take
-              information about the International University of Cote d'Ivoire,
-              to register for the upcoming year and follow the activities of the
-              University. This project is my research project for my last year
-              of bachelor. After my defense of my research project, I obtained a
-              mark of 16/20.
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://github.com/Bino26/Webstack---Portfolio-Project"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="work__img">
-            <img
-              src="assets/img/Github Profile App.png"
-              alt=""
-              title="Github Profile App"
-            />
-            <div class="overview">
-              <h3>Overview:</h3>
-              Github Profile App is a is an web page that help you to search
-              Github users by their username and to get some informations about
-              the profile. You can get informations such as Number of Followers
-              , Number of Following , Number of Repository and the Contributions
-              Graph . I'm currently working so is not responsive .
-              <br />
-
-              <div class="over_icon">
-                <a
-                  href="https://github-profile-26.netlify.app/"
-                  target="_blank"
-                  title="Live Link"
-                  ><i class="bx bx-link"></i
-                ></a>
-                <a
-                  href="https://github.com/Bino26/Bin026_JS/tree/main/Github%20Profiles%20App"
-                  target="_blank"
-                  title="Code Source"
-                  ><i class="bx bx-code"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!---CONTRIBUTION--->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Bino's Contributions</h2>
-
-        <div class="contact__container bd-grid">
-          <img
-            class="img-chart"
-            src="https://ghchart.rshah.org/Bino26"
-            alt="chart-contributions"
-          />
-        </div>
-      </section>
-    </main>
-
-    <!--- FOOTER --->
-    <footer class="footer">
-      <p class="footer__title"></p>
-      <div class="footer__social">
-        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
-      </div>
-      <p class="footer__copy">&#169; Bino. All rigths reserved</p>
-    </footer>
-
-    <!---SCROLL REVEAL --->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!---DOM --->
-    <script src="assets/js/script.js"></script>
-  </body>
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel=stylesheet href=assets/css/styles.css>
+<link rel="shortcut icon " href=assets/img/IMG_5266-removebg-preview.png>
+<link href=https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css rel=stylesheet>
+<title>Bino's Portfolio</title>
+</head>
+<body>
+<header class=l-header>
+<nav class="nav bd-grid">
+<div>
+<a href=#><img src=assets/img/IMG_5266-removebg-preview.png alt="" height="60px " width=50px>
+</a>
+</div>
+<div class=nav__menu id=nav-menu>
+<ul class=nav__list>
+<li class=nav__item>
+<a href=#home class="nav__link active">Home</a>
+</li>
+<li class=nav__item>
+<a href=#about class=nav__link>About</a>
+</li>
+<li class=nav__item>
+<a href=#skills class=nav__link>Skills</a>
+</li>
+<li class=nav__item>
+<a href=#work class=nav__link>Work</a>
+</li>
+<li class=nav__item>
+<a href=#contact class=nav__link>Bino's Contributions</a>
+</li>
+</ul>
+</div>
+<div class=nav__toggle id=nav-toggle>
+<i class="bx bx-menu"></i>
+</div>
+</nav>
+</header>
+<main class=l-main>
+<section class="home bd-grid" id=home>
+<div class=home__data>
+<h1 class=home__title>
+Hi,<br>I'am
+<span class=home__title-color>Yann BANGAH(Bino)</span><br>
+Web Designer
+</h1>
+<a href=assets/img/CV-BANGAH.pdf download="BINO'S RESUME" class=button target=_blank>BINO'S RESUME(CV) <i class="bx bxs-download"></i></a>
+<i class="bx bx-wink-smile"></i>
+</div>
+<div class=home__social>
+<a href=https://www.linkedin.com/in/yannbangah-bino class=home__social-icon target=_blank><i class="bx bxl-linkedin"></i></a>
+<a href=https://github.com/Bino26 class=home__social-icon target=_blank><i class="bx bxl-github"></i></a>
+</div>
+</section>
+<div class=loader></div>
+<section class="about section" id=about>
+<h2 class=section-title>About</h2>
+<div class="about__container bd-grid">
+<div class=about__img>
+<img src=assets/img/BANGAH_Professionel.png alt="">
+</div>
+<div>
+<h2 class=about__subtitle>I'am YANN BANGAH</h2>
+<p class=about__text>
+A IT Student passionate with relevant skills in user interface and user experience design. As a JavaScript Junior Developer , i'm focused on MERN STACK, Mobile Application and Website Development. I got a diploma equivalent to a bachelor's degree in Computer Science and other certifactes .
+</p>
+</div>
+</div>
+</section>
+<section class="skills section" id=skills>
+<h2 class=section-title>Skills</h2>
+<div class="skills__container bd-grid">
+<div>
+<p class=skills__text></p>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-html5 skills__icon"></i>
+<span class=skills__name>HTML5</span>
+</div>
+<div class="skills__bar skills__html"></div>
+<div>
+<span class=skills__percentage>95%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-css3 skills__icon"></i>
+<span class=skills__name>CSS3</span>
+</div>
+<div class="skills__bar skills__css"></div>
+<div>
+<span class=skills__percentage>85%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-javascript skills__icon"></i>
+<span class=skills__name>JAVASCRIPT</span>
+</div>
+<div class="skills__bar skills__js"></div>
+<div>
+<span class=skills__percentage>75%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-git skills__icon"></i>
+<span class=skills__name>GIT</span>
+</div>
+<div class="skills__bar skills__git"></div>
+<div>
+<span class=skills__percentage>85%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-react skills__icon"></i>
+<span class=skills__name>REACT</span>
+</div>
+<div class="skills__bar skills__react"></div>
+<div>
+<span class=skills__percentage>40%</span>
+</div>
+</div>
+</div>
+<div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-nodejs skills__icon"></i>
+<span class=skills__name>NODE JS</span>
+</div>
+<div class="skills__bar skills__node"></div>
+<div>
+<span class=skills__percentage>70%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-nodejs skills__icon"></i>
+<span class=skills__name>EXPRESS JS</span>
+</div>
+<div class="skills__bar skills__node"></div>
+<div>
+<span class=skills__percentage>70%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-mongodb skills__icon"></i>
+<span class=skills__name>MONGO DB</span>
+</div>
+<div class="skills__bar skills__mongodb"></div>
+<div>
+<span class=skills__percentage>65%</span>
+</div>
+</div>
+<div class=skills__data>
+<div class=skills__names>
+<i class="bx bxl-sass skills__icon"></i>
+<span class=skills__name>SASS</span>
+</div>
+<div class="skills__bar skills__sass"></div>
+<div>
+<span class=skills__percentage>90%</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="work section" id=work>
+<h2 class=section-title>Work</h2>
+<p id=text_work>
+The rest of work will be available as soon as possible but you can find some projects on my
+<a href=https://github.com/Bino26 target=_blank>Github</a>
+</p>
+<div class="work__container bd-grid">
+<div class=work__img>
+<img src="assets/img/Movies App.png" alt="" title="Movies App">
+<div class=overview>
+<h3>Overview:</h3>
+Movies App is a is an web page that help you to search movies by their name and to get some informations about movies.
+<br>
+<div class=over_icon>
+<a href=https://movies26-app.netlify.app/ target=_blank title="Live Link"><i class="bx bx-link"></i></a>
+<a href=https://github.com/Bino26/Bin026_JS/tree/main/Movies%20App%20 target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+<div class=work__img>
+<img src="assets/img/Food Receipe App.png" alt="" title="Food Receipe App">
+<div class=overview>
+<h3>Overview:</h3>
+Food Receipe App is a is an web page that help you to search receipe by their name and to get some informations about the food.
+<br>
+<div class=over_icon>
+<a href=https://foodreceipe26.netlify.app/ target=_blank title="Live Link"><i class="bx bx-link"></i></a>
+<a href=https://github.com/Bino26/Bin026_JS/tree/main/Food%20Receipe%20App target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+<div class=work__img>
+<img src="assets/img/Joke App.png" alt="" title="Joke App">
+<div class=overview>
+<h3>Overview:</h3>
+Joke App is an web page that give you to random joke . You will get another random joke by clicking on the main page .
+<br>
+<div class=over_icon>
+<a href=https://joke-app26.netlify.app/ target=_blank title="Live Link"><i class="bx bx-link"></i></a>
+<a href=https://github.com/Bino26/Bin026_JS/tree/main/Joke%20App target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+<div class=work__img>
+<img src="assets/img/Password Generator App.png" alt="" title="Password Generator App">
+<div class=overview>
+<h3>Overview:</h3>
+B26 Generator is a free, safe and easy to use tool that lets you create secure passwords. This tool is ideal for users who want to boost their protection against hackers by ensuring their passwords are unique and difficult to crack. The B26 Generator will generate any random password that may be needed. All you have to do is to choose the number of characters you want and which characters you want to put and click on the Generate button and wait for a few seconds and you have your password already copied!
+<br>
+<div class=over_icon>
+<a href=https://password-generator26.netlify.app/ target=_blank title="Live Link"><i class="bx bx-link"></i></a>
+<a href=https://github.com/Bino26/password-generator target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+<div class=work__img>
+<img src="assets/img/UICI APP.png" alt="" title="UICI APP">
+<div class=overview>
+<h3>Overview:</h3>
+UICI WEB APP is a web application that allows students to take information about the International University of Cote d'Ivoire, to register for the upcoming year and follow the activities of the University. This project is my research project for my last year of bachelor. After my defense of my research project, I obtained a mark of 16/20.
+<br>
+<div class=over_icon>
+<a href=https://github.com/Bino26/Webstack---Portfolio-Project target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+<div class=work__img>
+<img src="assets/img/Github Profile App.png" alt="" title="Github Profile App">
+<div class=overview>
+<h3>Overview:</h3>
+Github Profile App is a is an web page that help you to search Github users by their username and to get some informations about the profile. You can get informations such as Number of Followers , Number of Following , Number of Repository and the Contributions Graph . I'm currently working so is not responsive .
+<br>
+<div class=over_icon>
+<a href=https://github-profile-26.netlify.app/ target=_blank title="Live Link"><i class="bx bx-link"></i></a>
+<a href=https://github.com/Bino26/Bin026_JS/tree/main/Github%20Profiles%20App target=_blank title="Code Source"><i class="bx bx-code"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact section" id=contact>
+<h2 class=section-title>Bino's Contributions</h2>
+<div class="contact__container bd-grid">
+<img class=img-chart src=https://ghchart.rshah.org/Bino26 alt=chart-contributions>
+</div>
+</section>
+</main>
+<footer class=footer>
+<p class=footer__title></p>
+<div class=footer__social>
+<a href=# class=footer__icon><i class="bx bxl-facebook"></i></a>
+<a href=# class=footer__icon><i class="bx bxl-instagram"></i></a>
+<a href=# class=footer__icon><i class="bx bxl-twitter"></i></a>
+</div>
+<p class=footer__copy>&#169; Bino. All rigths reserved</p>
+</footer>
+<script src=https://unpkg.com/scrollreveal></script>
+<script src=assets/js/script.js></script>
+</body>
 </html>
