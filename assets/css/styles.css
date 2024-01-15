@@ -277,13 +277,16 @@ img {
   width: 75%;
 }
 .skills__react {
-  width: 40%;
+  width: 50%;
 }
 .skills__node {
-  width: 70%;
+  width: 80%;
 }
 .skills__mongodb {
-  width: 65%;
+  width: 85%;
+}
+.skills__php {
+  width: 60%;
 }
 .skills__sass {
   width: 90%;
@@ -472,7 +475,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f7f9fbcb;
+  background-color: #fff;
   transition: opacity 0.75s, visibility 0.75s;
 }
 .loader-hidden {
@@ -483,7 +486,7 @@ img {
   content: "";
   width: 75px;
   height: 75px;
-  border: 15px solid #f5f5f5;
+  border: 15px solid var(--second-color);
   border-top-color: gold;
   border-radius: 50%;
   animation: 0.75s infinite loading;

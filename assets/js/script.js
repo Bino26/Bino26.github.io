@@ -32,12 +32,12 @@ function scrollActive() {
 }
 window.addEventListener("scroll", scrollActive);
 const sr = ScrollReveal({
-    origin: "top",
-    distance: "60px",
-    duration: 2e3,
-    delay: 200,
-  }),
-  loader = document.querySelector(".loader");
+  origin: "top",
+  distance: "60px",
+  duration: 2e3,
+  delay: 200,
+});
+loader = document.querySelector(".loader");
 window.addEventListener("load", () => {
   loader.classList.add("loader-hidden"),
     loader.addEventListener("transitionend", () => {
@@ -50,3 +50,7 @@ window.addEventListener("load", () => {
   }),
   sr.reveal(".home__social-icon", { interval: 200 }),
   sr.reveal(".skills__data, .work__img, .contact__input", { interval: 200 });
+
+// Get the current year for the copyright dynamically
+const currentYear = new Date().getFullYear();
+footer_text.innerHTML = `Copyright &#169; <u>Bino</u> ${currentYear} `;
